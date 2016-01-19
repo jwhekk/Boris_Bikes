@@ -10,5 +10,9 @@ describe DockingStation do
   it "reponds to method 'bikes'" do
     expect((subject).bikes).not_to eq nil
   end
+  it "raises an error when no bikes available" do
+    expect{5.times {(subject).release_bike}}.to raise_error "no bikes"
+
+  end
 
 end

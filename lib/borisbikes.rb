@@ -6,7 +6,7 @@ class DockingStation
 
   def release_bike
     if @bikes.empty?
-      puts "sorry, no bikes."
+      raise "no bikes"
     else
     @bikes.pop
     end

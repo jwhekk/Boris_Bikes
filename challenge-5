@@ -1,0 +1,17 @@
+error when invoking rspec:
+/Users/wim/Projects/Ronin/week1/Boris_Bikes/spec/dockingstation_spec.rb:1:in `<top (required)>': uninitialized constant DockingStation (NameError)
+	from /Users/wim/.rvm/gems/ruby-2.2.1/gems/rspec-core-3.4.1/lib/rspec/core/configuration.rb:1361:in `load'
+	from /Users/wim/.rvm/gems/ruby-2.2.1/gems/rspec-core-3.4.1/lib/rspec/core/configuration.rb:1361:in `block in load_spec_files'
+	from /Users/wim/.rvm/gems/ruby-2.2.1/gems/rspec-core-3.4.1/lib/rspec/core/configuration.rb:1359:in `each'
+	from /Users/wim/.rvm/gems/ruby-2.2.1/gems/rspec-core-3.4.1/lib/rspec/core/configuration.rb:1359:in `load_spec_files'
+	from /Users/wim/.rvm/gems/ruby-2.2.1/gems/rspec-core-3.4.1/lib/rspec/core/runner.rb:102:in `setup'
+	from /Users/wim/.rvm/gems/ruby-2.2.1/gems/rspec-core-3.4.1/lib/rspec/core/runner.rb:88:in `run'
+	from /Users/wim/.rvm/gems/ruby-2.2.1/gems/rspec-core-3.4.1/lib/rspec/core/runner.rb:73:in `run'
+	from /Users/wim/.rvm/gems/ruby-2.2.1/gems/rspec-core-3.4.1/lib/rspec/core/runner.rb:41:in `invoke'
+	from /Users/wim/.rvm/gems/ruby-2.2.1/gems/rspec-core-3.4.1/exe/rspec:4:in `<top (required)>'
+	from /Users/wim/.rvm/gems/ruby-2.2.1/bin/rspec:23:in `load'
+	from /Users/wim/.rvm/gems/ruby-2.2.1/bin/rspec:23:in `<main>'
+	from /Users/wim/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+	from /Users/wim/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+
+it is a ruby error rspec is not able to start

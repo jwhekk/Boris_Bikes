@@ -1,0 +1,7 @@
+Objects   Person   Bike    Docking Station
+Messages           Use     release_bike
+                working_bike? working_bike?
+
+Person ---->release_bike----->Docking Station
+Docking Station----->working_bike?----> Bike
+Person ------> use -----> bike

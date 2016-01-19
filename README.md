@@ -5,3 +5,5 @@ Written by Mat Drake and Alain Lemaire
 This program will run the docking stations, including simulating the bikes and running the infrastructure, for the new Boris Bikes in London.
 
 Includes rspec testing files.
+
+For the Horde!

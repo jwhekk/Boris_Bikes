@@ -1,0 +1,9 @@
+Error:
+NameError: uninitialized constant DockingStation
+	from (irb):1
+	from /usr/bin/irb:12:in `<main>'
+This is a name error caused by the uninitialized constant DockingStation.
+Found on line one of the irb session
+The irb file is found at /usr/bin/irb:12:in `<main>'
+
+The DockingStation class has not been defined, defining this class should resolve this error.

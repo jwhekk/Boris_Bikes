@@ -7,4 +7,8 @@ describe DockingStation do
   it "responds to relese_bike creating a bike object" do
     expect((subject).release_bike).not_to eq nil
   end
+  it "reponds to method 'bikes'" do
+    expect((subject).bikes).not_to eq nil
+  end
+
 end

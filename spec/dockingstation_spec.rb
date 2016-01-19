@@ -1,4 +1,4 @@
-require './lib/dockingstation.rb'
+require 'borisbikes'
 describe DockingStation do
   it "responds to a method release_bike" do
     dockingstation = DockingStation.new

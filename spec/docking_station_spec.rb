@@ -13,4 +13,7 @@ describe DockingStation do
   bike = station.release_bike
   station.dock(bike)
   it {expect(station.bikes).to eq bike}
+  it "returns 'No bikes' when out of bikes" do
+    expect { 21.times{station.release_bike} }.to raise_error "No more bikes!"
+  end
 end

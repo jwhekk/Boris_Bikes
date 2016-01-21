@@ -1,0 +1,4 @@
+object              message
+maintainer
+bike                distribution
+dockingstation      number of bikes

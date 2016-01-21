@@ -1,21 +1,18 @@
 require_relative 'bike.rb'
 
 class DockingStation
-  attr_reader :bikes, :num_bikes
+  attr_reader :bikes
   def initialize
-    @num_bikes = 20
+    @bikes = []
+    20.times { @bikes << Bike.new }
   end
   def release_bike
-    if @num_bikes > 0
-      @num_bikes -= 1
-      @bikes
-    else
-      raise "No more bikes!"
-    end
+    raise "No more bikes!" if @bikes.empty?
+    @bikes.pop
   end
   def dock(bike)
-    raise "Dockingstation full" if @num_bikes >= 20
-    @bikes = bike
-    @num_bikes += 1
+    raise "Dockingstation full" if @bikes.count > 20
+    @bikes << bike
+    @bike = bike
   end
 end
